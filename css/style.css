@@ -11,6 +11,23 @@ nav{
     margin-right: 10px;
     font-family: 'Roboto', sans-serif;
 }
+/* Campo de pesquisa */
+.divBusca{
+    background-color:#f8fafa;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;   
+  }
+/* Texto campo de pesquisa */
+  .txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    font-family: 'Roboto', sans-serif;
+  }
 /* Header */
 header{
     background-color: #C2C7F1;
@@ -47,6 +64,7 @@ footer{
     height: 540px;
     padding-top: 30px;
     width: 100%;
+    text-align: left;
 }
 /* Responsividade */
 @media only screen and (max-device-width: 1920px) {
