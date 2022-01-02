@@ -68,7 +68,10 @@ footer{
 }
 /* Responsividade */
 @media only screen and (max-device-width: 1920px) {
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1920px){
+}
     body {
         background-color: #C2C7F1;
-    }
 }
